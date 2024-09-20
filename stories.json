@@ -1,0 +1,23 @@
+[
+    {
+        "title": "De Verloren Ster",
+        "summary": "Een ruimteschip raakt verdwaald in een onbekend sterrenstelsel en ontdekt een mysterieus artefact...",
+        "link": "stories/verhaal1.html",
+        "date": "2024-09-20",
+        "category": "space"
+    },
+    {
+        "title": "Tijdreizen in het Oog van de Storm",
+        "summary": "Een jonge wetenschapper vindt een manier om tijdreizen te maken, maar ontdekt al snel de gevaren ervan...",
+        "link": "stories/verhaal2.html",
+        "date": "2024-09-18",
+        "category": "time"
+    },
+    {
+        "title": "De Nieuwe Horizon",
+        "summary": "Een episch avontuur waarin de mensheid nieuwe grenzen verkent en onbekende werelden ontdekt.",
+        "link": "stories/verhaal3.html",
+        "date": "2024-09-25",
+        "category": "exploration"
+    }
+]
