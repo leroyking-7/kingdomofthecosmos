@@ -1,0 +1,151 @@
+/* === Global Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === Body Styling === */
+body {
+  background-color: #0c0f1c;
+  color: #e0e6f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* === Banner Section === */
+.banner {
+  background: linear-gradient(to bottom, #0c0f1c 10%, #1e293b 100%);
+  padding: 60px 20px;
+  text-align: center;
+  border-bottom: 1px solid #334155;
+  position: relative;
+}
+
+.banner .logo {
+  width: 180px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(255, 153, 0, 0.3);
+}
+
+.banner h1 {
+  font-size: 3.2rem;
+  color: #fbbf24;
+  letter-spacing: 2px;
+}
+
+.banner .tagline {
+  font-size: 1.1rem;
+  color: #e2e8f0;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* === Toggle Button Style === */
+#toggle-theme {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: 1px solid #64748b;
+  color: inherit;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+#toggle-theme:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* === Main Content === */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  color: #cbd5e1;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #a78bfa;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+/* === Links === */
+a {
+  color: #7dd3fc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #38bdf8;
+  text-decoration: underline;
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 0.9rem;
+  color: #64748b;
+}
+
+footer p {
+  margin-bottom: 8px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* === Light Mode Styles === */
+.light-mode {
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+.light-mode a {
+  color: #2563eb;
+}
+
+.light-mode .banner {
+  background: linear-gradient(to bottom, #e2e8f0 10%, #cbd5e1 100%);
+  border-bottom: 1px solid #94a3b8;
+}
+
+.light-mode .banner h1 {
+  color: #1f2937;
+}
+
+.light-mode .banner .tagline {
+  color: #334155;
+}
+
+.light-mode footer {
+  color: #475569;
+}
