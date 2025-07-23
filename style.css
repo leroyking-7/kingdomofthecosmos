@@ -149,3 +149,37 @@ footer p {
 .light-mode footer {
   color: #475569;
 }
+.chapter-nav {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.02);
+  border: 1px solid #334155;
+  border-radius: 8px;
+}
+
+.chapter-nav h2 {
+  font-size: 1.5rem;
+  color: #a78bfa;
+  margin-bottom: 10px;
+}
+
+.chapter-nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.chapter-nav li {
+  margin-bottom: 8px;
+}
+
+.chapter-nav a {
+  color: #7dd3fc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.chapter-nav a:hover {
+  color: #38bdf8;
+  text-decoration: underline;
+}
+
