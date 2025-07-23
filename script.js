@@ -19,3 +19,18 @@ window.addEventListener('DOMContentLoaded', () => {
   document.getElementById('copyright').textContent =
     `© ${year} Kingdom of the Cosmos. All rights reserved.`;
 });
+
+// Back to Top Button
+  const backToTopBtn = document.getElementById('back-to-top');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+      backToTopBtn.style.display = 'block';
+    } else {
+      backToTopBtn.style.display = 'none';
+    }
+  });
+
+  backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+});
