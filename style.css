@@ -17,11 +17,19 @@ body {
 
 /* === Banner Section === */
 .banner {
-  background: linear-gradient(to bottom, #0c0f1c 10%, #1e293b 100%);
-  padding: 60px 20px;
+  /* De link naar je nieuwe afbeelding */
+  background-image: linear-gradient(to bottom, rgba(12, 15, 28, 0.8), rgba(12, 15, 28, 0.6)), url('assets/elaren.png');
+  
+  /* Zorgt dat de afbeelding de hele banner vult */
+  background-size: cover;
+  background-position: center;
+  
+  /* Behoud je bestaande padding en styling */
+  padding: 80px 20px;
   text-align: center;
   border-bottom: 1px solid #334155;
   position: relative;
+  color: white;
 }
 
 .banner .logo {
